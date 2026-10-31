@@ -22,35 +22,31 @@ As consultas e transformações SQL foram desenvolvidas no Databricks para garan
 
 ## Visualização do Dashboard (Power BI)
 
-1. Performance do Elenco (Performance_Elenco_Desktop.png)
+1. Performance do Elenco ([Performance_Elenco_Desktop.png](/Performance_Elenco_Desktop.png))
 
 - Média de Idade por Posição: Análise da maturidade tática do grupo (Goleiros, Meias, Atacantes e Defensores).
 - Média de Cartões Amarelos: Atletas com maior taxa de indisciplina/minutagem.
 - Minutos por Partida x % Titularidade: Análise da rotação dos 15 jogadores mais utilizados (>500 minutos jogados).
 - Gráfico de Dispersão (Decisividade): Cruzamento da média de Pontos por Partida conquistados com a presença do atleta em campo versus suas Participações em Gol (Gols + Assistências).
 
-2. Análise de Resultados e Mando de Campo (Analise_Resultados_Desktop.png)
+2. Análise de Resultados e Mando de Campo ([Analise_Resultados_Desktop.png](/Analise_Resultados_Desktop.png))
 - Aproveitamento Geral: Gauge/KPI de eficiência global do time nas competições (50.33%).
 - Desempenho Casa vs. Fora: Comparativo de pontos conquistados, partidas disputadas e variação da taxa de aproveitamento (57,69% em casa vs. 42,67% fora).
 - Estatística por Estádio: Detalhamento do volume de Vitórias, Empates e Derrotas comparando a força de São Januário contra as partidas no Maracanã.
 
 ## Principais Fórmulas DAX Utilizadas
 
--- Calculo da Coluna de Pontos por Partida
-pontos = 
-SWITCH(
-    TRUE(),
-    partidas[resultado] = "V", 3,
-    partidas[resultado] = "E", 1,
-    0
-)
+-- Calculo da Coluna de Pontos por Partida;
+-- Taxa de Aproveitamento (%);
 
--- Taxa de Aproveitamento (%)
-Aproveitamento = 
-DIVIDE(
-    SUM(partidas[pontos]), 
-    COUNT(partidas[id_partida]) * 3
-)
+## Principais Funções/Comandos Utilizados em SQL
+-- SELECT
+-- WHERE
+-- JOIN
+-- CASE WHEN
+-- FILTER
+-- GROUP BY
+-- ORDER BY
 
 Desenvolvido por: Liany Quinderé
 Fonte dos Dados: FBref (Dados coletados até 24/10/2026)
