@@ -1,0 +1,39 @@
+jogador,nacionalidade,posicao,idade,partidas_jogadas,minutos_jogados,minutos_por_partida,porcentagem_minutos,partidas_titular,minutos_partidas_titular,partidas_completas,partidas_jogadas_nao_titular,minutos_subs,reserva_nao_utilizado,pontos_por_partida,gols_marcados_pela_equipe,gols_sofridos_pela_equipe,marcados_menos_sofridos_equipe,marcados_menos_sofridos_equipe90,saldo_equipe
+Léo Jardim,BRA,GK,31,43,3870,90,95.6,43,90,43,0,null,0,1.38,58,56,2,0.05,-0.45
+Robert Renan,BRA,DF,23,38,3384,89,83.6,38,89,36,0,null,3,1.37,49,50,-1,-0.03,-0.57
+Thiago Mendes,BRA,MF,34,37,2966,80,73.2,34,85,25,3,30,0,1.44,46,42,4,0.12,0.2
+Andrés Gómez,COL,MF,24,34,2606,77,64.3,30,83,19,4,28,0,1.44,38,38,0,0,-0.19
+José Luis Rodríguez,URU,DF,29,32,2087,65,51.5,20,87,16,12,29,7,1.41,32,30,2,0.09,0.04
+Cuiabano,BRA,DF,23,28,2054,73,50.7,23,82,15,5,33,2,1.54,35,30,5,0.22,0.31
+Carlos Cuesta,COL,DF,27,23,1991,87,49.2,23,87,18,0,null,6,1.17,25,31,-6,-0.27,-0.66
+Alan Saldivia,URU,DF,24,23,1966,85,48.5,21,90,21,2,38,9,1.74,34,24,10,0.46,0.76
+Paulo Henrique,BRA,DF,30,30,1908,64,47.1,23,77,12,7,21,7,1.53,26,31,-5,-0.24,-0.57
+Cauan Barros,BRA,MF,22,26,1842,71,45.5,21,84,14,5,16,5,1.19,21,29,-8,-0.39,-0.84
+Tchê Tchê,BRA,MF,34,30,1830,61,45.2,23,74,7,7,18,12,1.6,22,28,-6,-0.3,-0.66
+Nuno Gonçalo Moreira,POR,MF,27,34,1713,50,42.3,21,69,2,13,21,8,1.35,26,22,4,0.21,0.25
+Lucas Piton,BRA,DF,26,27,1666,62,41.1,20,75,6,7,22,14,1.41,24,20,4,0.22,0.25
+David,BRA,FW,31,32,1472,46,36.3,17,67,0,15,23,11,1.25,20,25,-5,-0.31,-0.58
+Adson,BRA,MF,26,28,1405,50,34.7,17,67,1,11,24,11,1.61,25,15,10,0.64,0.88
+Claudio Spinelli,ARG,FW,29,29,1350,47,33.3,14,75,6,15,20,7,1.24,20,11,9,0.6,0.8
+Johan Rojas,COL,MFFW,24,23,1219,53,30.1,14,71,2,9,25,7,1.34,21,16,5,0.37,0.43
+Santiago Sosa,ARG,MF,27,14,1003,72,24.8,11,82,5,3,34,0,1.64,17,16,1,0.09,0.03
+Marino Hinestroza,COL,MF,24,27,993,37,24.5,7,73,1,20,24,13,1.19,16,15,1,0.09,0.03
+Brenner,BRA,FWMF,26,25,984,39,24.3,8,67,1,17,26,2,1.24,13,21,-8,-0.73,-1.05
+Facundo Colidio,ARG,MFFW,26,10,724,72,25.9,9,78,3,1,26,0,1.6,13,7,6,0.75,1.27
+Ramon Rique,BRA,MF,19,19,692,36,17.1,7,68,0,12,18,10,1.74,14,5,9,1.17,1.33
+Lucas Freitas,BRA,DF,25,11,647,59,16,7,90,7,4,4,32,1.91,10,8,2,0.28,0.25
+Bruno Duarte,BRA,FW,30,10,609,61,15,8,69,2,2,28,0,1.9,12,5,7,1.03,1.14
+Alan Lescano,ARG,MF,24,8,564,71,13.9,7,78,1,1,18,0,2,13,7,6,0.96,1.03
+Jair,BRA,MF,32,8,272,34,6.7,3,59,0,5,19,7,1.5,4,0,4,1.32,1.35
+Avellar,BRA,DF,20,7,236,34,5.8,2,77,0,5,17,10,1.57,2,4,-2,-0.76,-0.88
+João Pedro,BRA,MF,21,6,217,36,5.4,3,56,1,3,16,17,1,1,5,-4,-1.66,-1.82
+Daniel Fuzato,BRA,GK,29,2,180,90,4.4,2,90,2,0,null,42,2,2,2,0,0,-0.07
+João Vitor Fonseca da Silva,BRA,DF,21,2,145,73,3.6,2,73,0,0,null,3,0,1,3,-2,-1.24,-1.36
+Walace,BRA,DF,21,3,114,38,2.8,1,90,1,2,12,8,1.33,0,2,-2,-1.58,-2.44
+Gabriel Pereira,BRA,DF,26,2,103,52,2.5,1,90,1,1,13,5,1.5,0,1,-1,-0.87,-0.96
+Lukas Zuccarello,BRA,MF,19,5,63,13,1.6,0,null,0,5,13,5,1.6,0,0,0,0,-0.07
+Bruno Lopes,BRA,FW,19,2,43,22,1.1,0,null,0,2,22,2,1.5,0,0,0,0,-0.07
+João Vitor,BRA,FW,17,3,35,12,1.3,0,null,0,3,12,2,0.67,0,2,-2,-5.14,-5.01
+Gabriel Souza,BRA,MF,21,2,25,13,0.9,0,null,0,2,13,1,0,0,0,0,0,0.2
+Andrey,BRA,MF,18,1,23,23,0.6,0,null,0,1,23,4,0,0,0,0,0,0.2
+Samuel de Jesus dos Santos,BRA,MF,20,1,6,6,0.5,0,null,0,1,6,4,0,0,1,-1,-15,-15.72

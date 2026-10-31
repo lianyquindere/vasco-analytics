@@ -1,0 +1,52 @@
+data,horario,competicao,rodada,dia_semana,mando_de_campo,resultado,gols_pro,gols_contra,adversario,posse,publico,capitao,formacao,formacao_adversario,arbitragem
+2026-01-29,20:00,Série A,Matchweek 1,Thu,Fora,D,1,2,Mirassol,53,5883,Philippe Coutinho,4-2-3-1,4-3-3,Rodrigo José Pereira de Lima
+2026-02-05,20:00,Série A,Matchweek 2,Thu,Casa,E,1,1,Chapecoense,67,15702,Philippe Coutinho,4-2-3-1,3-4-1-2,Wilton Sampaio
+2026-02-11,21:30,Série A,Matchweek 3,Wed,Casa,D,0,1,Bahia,62,11477,Philippe Coutinho,4-2-3-1,4-2-3-1,Paulo Zanovelli
+2026-02-26,19:00,Série A,Matchweek 4,Thu,Fora,D,1,2,Santos,59,8808,Léo Jardim,4-2-3-1,4-4-2,Rafael Klein
+2026-03-12,19:30,Série A,Matchweek 5,Thu,Casa,V,2,1,Palmeiras,50,17291,Thiago Mendes,4-1-4-1,4-2-3-1,Savio Pereira
+2026-03-15,20:30,Série A,Matchweek 6,Sun,Fora,E,3,3,Cruzeiro,41,22352,Hugo Moura,4-1-4-1,4-2-3-1,Lucas Paulo Torezin
+2026-03-18,21:30,Série A,Matchweek 7,Wed,Casa,V,3,2,Fluminense,52,38449,Thiago Mendes,4-1-4-1,4-2-3-1,Raphael Claus
+2026-03-22,16:00,Série A,Matchweek 8,Sun,Casa,V,2,1,Grêmio,37,20650,Thiago Mendes,4-1-4-1,4-3-3,Davi de Oliveira Lacerda
+2026-04-01,20:30,Série A,Matchweek 9,Wed,Fora,E,1,1,Coritiba,35,27224,Thiago Mendes,4-2-3-1,4-1-4-1,Ramon Abatti Abel
+2026-04-04,21:00,Série A,Matchweek 10,Sat,Casa,D,1,2,Botafogo–RJ,63,20072,Thiago Mendes,4-2-3-1,4-3-3,Wagner do Nascimento Magalhães
+2026-04-07,19:00,Sudamericana,Group stage,Tue,Fora,E,0,0,Barracas Central,63,null,Carlos Cuesta,3-4-2-1,5-3-2,Carlos Betancourt
+2026-04-11,16:30,Série A,Matchweek 11,Sat,Fora,E,1,1,Remo,57,35305,Thiago Mendes,4-2-3-1,4-2-3-1,Rodrigo José Pereira de Lima
+2026-04-14,21:00,Sudamericana,Group stage,Tue,Casa,D,1,2,Audax Italiano,43,null,José Luis Rodríguez,4-2-3-1,3-4-1-2,Hernan Heras
+2026-04-18,18:30,Série A,Matchweek 12,Sat,Casa,V,2,1,São Paulo,63,20067,Thiago Mendes,4-2-3-1,4-2-3-1,Savio Pereira
+2026-04-21,21:30,Copa do Brasil,5ª Fase,Tue,Fora,V,2,0,Paysandu,58,25933,Thiago Mendes,4-2-3-1,4-2-3-1,Ramon Abatti Abel
+2026-04-26,16:00,Série A,Matchweek 13,Sun,Fora,D,0,1,Corinthians,60,42352,Thiago Mendes,4-1-4-1,4-2-3-1,Davi de Oliveira Lacerda
+2026-04-30,19:00,Sudamericana,Group stage,Thu,Casa,V,3,0,Olimpia,52,null,José Luis Rodríguez,4-2-3-1,4-1-4-1,Jesús Valenzuela
+2026-05-03,16:00,Série A,Matchweek 14,Sun,Fora,E,2,2,Flamengo,51,61872,Thiago Mendes,4-4-2,4-2-3-1,Wilton Sampaio
+2026-05-06,18:00 (19:00),Sudamericana,Group stage,Wed,Fora,V,2,1,Audax Italiano,54,null,Alan Saldivia,4-2-3-1,5-3-2,Jhon Ospina
+2026-05-10,20:30,Série A,Matchweek 15,Sun,Casa,V,1,0,Athletico–PR,53,13917,Thiago Mendes,4-2-3-1,3-4-2-1,Raphael Claus
+2026-05-13,19:00,Copa do Brasil,5ª Fase,Sat,Casa,E,2,2,Paysandu,48,16653,Thiago Mendes,4-2-3-1,4-2-3-1,Braulio da Silva Machado
+2026-05-16,18:30,Série A,Matchweek 16,Sat,Fora,D,1,4,Internacional,60,21688,Hugo Moura,4-2-3-1,4-4-2,Ramon Abatti
+2026-05-20,18:00 (19:00),Sudamericana,Group stage,Wed,Fora,D,1,3,Olimpia,24,null,Carlos Cuesta,4-1-4-1,4-3-3,Wilmar Roldán
+2026-05-24,20:30,Série A,Matchweek 17,Sun,Casa,D,0,3,RB Bragantino,60,13805,Thiago Mendes,4-2-3-1,4-2-3-1,Fernando Mendes
+2026-05-27,19:00,Sudamericana,Group stage,Wed,Casa,V,3,0,Barracas Central,74,null,Thiago Mendes,4-1-4-1,3-4-2-1,Esteban Ostojich
+2026-05-31,16:00,Série A,Matchweek 18,Sun,Casa,D,0,1,Atlético Mineiro,60,20133,Thiago Mendes,4-1-4-1,3-4-2-1,Anderson Daronco
+2026-07-16,19:30,Série A,Matchweek 19,Thu,Fora,D,0,1,Vitória,50,19963,Thiago Mendes,4-2-3-1,4-1-4-1,Matheus Candançan
+2026-07-22,17:00 (19:00),Sudamericana,Knockout round play-offs,Wed,Fora,E,2,2,Ind. Medellín,53,null,Thiago Mendes,4-2-3-1,4-2-3-1,Piero Maza
+2026-07-25,20:30,Série A,Matchweek 20,Sat,Casa,E,1,1,Mirassol,58,10649,José Luis Rodríguez,4-2-3-1,4-3-3,Rafael Klein
+2026-07-29,19:00,Sudamericana,Knockout round play-offs,Wed,Casa,V,1,0,Ind. Medellín,60,null,Thiago Mendes,4-2-3-1,4-2-3-1,Maximiliano Ramírez
+2026-08-01,17:30,Copa do Brasil,Oitavas de Final,Sat,Casa,E,0,0,Fluminense,50,36608,Jair,4-2-3-1,4-2-3-1,Ramon Abatti Abel
+2026-08-05,21:30,Copa do Brasil,Oitavas de Final,Wed,Fora,V,3,1,Fluminense,39,48794,Thiago Mendes,4-3-3,4-2-3-1,Wilton Pereira Sampaio
+2026-08-09,16:00,Série A,Matchweek 22,Sun,Fora,E,0,0,Bahia,49,39834,Thiago Mendes,4-2-3-1,4-4-2,Rodrigo José Pereira de Lima
+2026-08-13,19:00,Sudamericana,Round of 16,Thu,Casa,E,0,0,Olimpia,75,null,Thiago Mendes,4-1-4-1,4-1-4-1,Darío Herrera
+2026-08-16,16:00,Série A,Matchweek 23,Sun,Casa,D,0,3,Santos,57,20430,Thiago Mendes,4-2-3-1,4-2-3-1,Lucas Casagrande
+2026-08-20,18:00 (19:00),Sudamericana,Round of 16,Thu,Fora,V,4,1,Olimpia,43,null,Thiago Mendes,4-1-4-1,4-1-4-1,Esteban Ostojich
+2026-08-23,16:00,Série A,Matchweek 24,Sun,Fora,D,1,4,Palmeiras,43,36382,Thiago Mendes,4-1-4-1,3-4-1-2,Braulio da Silva Machado
+2026-08-26,21:30,Copa do Brasil,Quartas de Final,Wed,Casa,V,1,0,Vitória,36,19194,Thiago Mendes,4-2-3-1,4-1-4-1,Matheus Candançan
+2026-08-29,21:20,Série A,Matchweek 25,Sat,Casa,V,3,1,Cruzeiro,45,19021,Thiago Mendes,4-1-4-1,4-2-3-1,Fernando Mendes de Salles Nascimento Fillho
+2026-09-02,21:30,Copa do Brasil,Quartas de Final,Wed,Fora,V,2,0,Vitória,38,28499,Thiago Mendes,4-3-3,4-2-3-1,Rafael Rodrigo Klein
+2026-09-05,21:00,Série A,Matchweek 26,Sat,Fora,D,0,1,Fluminense,55,38750,Thiago Mendes,4-1-4-1,4-2-3-1,Davi de Oliveira Lacerda
+2026-09-08,17:00 (19:00),Sudamericana,Quarter-finals,Tue,Fora,E,0,0,Santa Fe,43,null,José Luis Rodríguez,4-1-4-1,4-2-3-1,Darío Herrera
+2026-09-12,16:00,Série A,Matchweek 27,Sat,Fora,V,2,1,Grêmio,49,34023,Thiago Mendes,4-1-4-1,4-1-4-1,Raphael Claus
+2026-09-15,19:00,Sudamericana,Quarter-finals,Tue,Casa,V,2,0,Santa Fe,52,null,José Luis Rodríguez,4-2-3-1,4-2-3-1,Alexis Herrera
+2026-09-19,20:30,Série A,Matchweek 28,Sat,Casa,V,5,0,Coritiba,65,19943,Thiago Mendes,4-1-4-1,4-2-3-1,Braulio da Silva Machado
+2026-10-07,20:30,Série A,Matchweek 29,Wed,Fora,V,2,1,Botafogo–RJ,54,23596,Thiago Mendes,4-1-4-1,4-2-3-1,Bruno Arleu de Arau
+2026-10-10,18:00,Série A,Matchweek 30,Sat,Casa,E,0,0,Remo,63,19866,Thiago Mendes,4-2-3-1,5-4-1,Paulo Zanovelli
+2026-10-13,21:30,Sudamericana,Semi-finals,Tue,Fora,V,1,0,Boca Juniors,40,null,Thiago Mendes,4-1-4-1,4-2-3-1,Piero Maza
+2026-10-17,21:00,Série A,Matchweek 31,Sat,Fora,D,0,1,São Paulo,60,31501,Tchê Tchê,4-2-3-1,3-4-2-1,Fernando Mendes de Salles Nascimento Fillho
+2026-10-20,21:30,Sudamericana,Semi-finals,Tue,Casa,D,1,3,Boca Juniors,63,null,Thiago Mendes,4-1-4-1,4-3-3,Jesús Valenzuela
+2026-10-24,18:30,Série A,Matchweek 32,Sat,Casa,V,3,2,Corinthians,64,19048,Thiago Mendes,4-2-3-1,4-2-3-1,Wilton Pereira Sampaio
