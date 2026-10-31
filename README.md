@@ -50,4 +50,4 @@ As consultas e transformações SQL foram desenvolvidas no Databricks para garan
 -- ORDER BY
 
 Desenvolvido por: Liany Quinderé
-Fonte dos Dados: FBref (Dados coletados até 24/10/2026)
+Fonte dos Dados: [FBref ](https://fbref.com/en/squads/83f55dbe/Vasco-da-Gama-Stats) (Dados coletados até 24/10/2026)
