@@ -3,7 +3,8 @@
 Projeto completo de Data Analytics focado na análise de desempenho do elenco e rendimento tático do Vasco da Gama nas competições da temporada (Brasileirão Série A, Copa do Brasil e CONMEBOL Sul-Americana).
 O projeto engloba desde a extração, tratamento e transformação dos dados via Databricks/SQL, até a modelagem avançada (DAX) e construção de dashboards interativos no Power BI.
 
-## Arquitetura e Fluxo do Pipeline ![Prévia do Databricks](assets/databricks_preview.png)
+## Arquitetura e Fluxo do Pipeline
+![Prévia do Databricks](assets/databricks_preview.png)
 
 - Ingestão e Tratamento (Databricks / Spark SQL / DAX):
 - Limpeza de dados brutos e padronização de posições de atletas (ex: tratamento de exceções como Colidio e Rojas).
