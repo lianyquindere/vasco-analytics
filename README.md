@@ -1,17 +1,56 @@
-# Vasco da Gama - Data Analytics Portfolio Project
+## Vasco da Gama - Data Analytics & Performance Dashboard
 
-Projeto end-to-end de Data Analytics focado no desempenho do Vasco da Gama. Pipeline de dados estruturado em Databricks/SQL e dashboard interativo desenvolvido em Power BI com modelagem DAX, análise de rotação de plantel e fator casa, cobrindo competições como o Brasileirão Série A, Copa do Brasil e Sul-Americana.
+Projeto completo de Data Analytics focado na análise de desempenho do elenco e rendimento tático do Vasco da Gama nas competições da temporada (Brasileirão Série A, Copa do Brasil e CONMEBOL Sul-Americana).
+O projeto engloba desde a extração, tratamento e transformação dos dados via Databricks/SQL, até a modelagem avançada (DAX) e construção de dashboards interativos no Power BI.
 
-Fonte de Dados: FBRef (https://fbref.com/en/squads/83f55dbe/Vasco-da-Gama-Stats)
+## Arquitetura e Fluxo do Pipeline
 
-##  Tecnologias Utilizadas
-* **Databricks / SQL**: Pipeline de dados, tratamento, limpeza e modelagem (Camadas Bronze/Silver/Gold).
-* **Power BI**: Modelagem avançada (DAX), criação de medidas personalizadas e visualização de dados.
+- Ingestão e Tratamento (Databricks / Spark SQL / DAX):
+- Limpeza de dados brutos e padronização de posições de atletas (ex: tratamento de exceções como Colidio e Rojas).
+- Consolidação das métricas de desempenho de elenco (p_perf) e de partidas (partidas).
+- Validação de regras de negócio via queries SQL (mando de campo, estádio e estatísticas individuais).
+- Modelagem e Métricas (Power Query & Power BI DAX):
+- Regra condicional para pontuação (SWITCH para Vitórias = 3, Empates = 1, Derrotas = 0).
+- Criação de medidas calculadas para Pontos por Partida, % de Titularidade, Participações Diretas (G+A) e Aproveitamento Geral/Mando.
 
-## Principais Análises do Dashboard
-1. **Desempenho Individual**: Minutos jogados, taxa de titularidade, média de cartões e participações diretas em gols (Gols + Assistências).
-2. **Fator Casa vs. Fora**: Comparativo de aproveitamento de pontos, volume de partidas e impacto jogando em São Januário e Maracanã.
-3. **Scatter Plot de Decisividade**: Cruzamento entre pontos conquistados por partida e participações em gols dos atletas.
+## Visualização de Dados (Power BI Dashboard):
+- Relatório interativo dividido em visão de Performance do Elenco e Resultados/Mando de Campo.
 
-## Pré-visualização do Relatório
+## Processamento de Dados no Databricks
 
+As consultas e transformações SQL foram desenvolvidas no Databricks para garantir dados consistentes.
+
+## Visualização do Dashboard (Power BI)
+
+1. Performance do Elenco (Performance_Elenco_Desktop.png)
+
+- Média de Idade por Posição: Análise da maturidade tática do grupo (Goleiros, Meias, Atacantes e Defensores).
+- Média de Cartões Amarelos: Atletas com maior taxa de indisciplina/minutagem.
+- Minutos por Partida x % Titularidade: Análise da rotação dos 15 jogadores mais utilizados (>500 minutos jogados).
+- Gráfico de Dispersão (Decisividade): Cruzamento da média de Pontos por Partida conquistados com a presença do atleta em campo versus suas Participações em Gol (Gols + Assistências).
+
+2. Análise de Resultados e Mando de Campo (Analise_Resultados_Desktop.png)
+- Aproveitamento Geral: Gauge/KPI de eficiência global do time nas competições (50.33%).
+- Desempenho Casa vs. Fora: Comparativo de pontos conquistados, partidas disputadas e variação da taxa de aproveitamento (57,69% em casa vs. 42,67% fora).
+- Estatística por Estádio: Detalhamento do volume de Vitórias, Empates e Derrotas comparando a força de São Januário contra as partidas no Maracanã.
+
+## Principais Fórmulas DAX Utilizadas
+
+-- Calculo da Coluna de Pontos por Partida
+pontos = 
+SWITCH(
+    TRUE(),
+    partidas[resultado] = "V", 3,
+    partidas[resultado] = "E", 1,
+    0
+)
+
+-- Taxa de Aproveitamento (%)
+Aproveitamento = 
+DIVIDE(
+    SUM(partidas[pontos]), 
+    COUNT(partidas[id_partida]) * 3
+)
+
+Desenvolvido por: Liany Quinderé
+Fonte dos Dados: FBref (Dados coletados até 24/10/2026)
